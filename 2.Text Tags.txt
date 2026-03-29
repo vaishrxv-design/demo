@@ -1,0 +1,102 @@
+Text content in HTML:
+====================
+* Based on the importance of heading, there are total six different heading tags are present in HTML.
+        They are <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+	By Default Heading Elements will be bold only.
+	Based on the type of Heading the size of the Elements will be changed.
+	<h1> denotes the Heading of Higher importance	
+	<h6> denotes the Heading of least importance
+
+* The content is represented by paragraph tag name called as <p>
+	The main contents are represented by <p> tag name	
+	Always the content inside the <p> tag starts from a new line
+	<p>Paragraph</p>
+        <p align="left">Aligns to the left</p>
+        <p align="center">Aligns to the center</p>
+        <p align="right">Aligns to the right</p>
+
+* <center> - Used to align center of the webpage.
+
+* <b> - To Bold a particular text <b>Bold</b>
+
+* <i> - To make some text as italic. <i>italic</i>
+
+* <sub> - To mention the subscript.  eg -->H2O-->water
+	
+* <sup> - To mention the superscript, Both are used to give mathematical formulas.   eg--> 2 power 3  = 2*2*2
+
+* <br> - Line Break
+
+* <hr> - Horizontal Rule, to give a single line for separation of text.
+	 These are self closing tags which doesn't have content as well as closing tags.
+         <hr size="50" width="50">
+         <hr size="10" noshade>
+         <hr size="10" color="Blue">
+
+* <big> - <p><big>Larger text</big></p>
+ 
+---> <small> - <p><small>Smaller text</small></p>
+
+* <u> - <p>This is <u>Underline</u></p>
+
+----> <strong> - To stress over a particular text. Text will be marked in the bold.
+
+----> <em> - To emphasis the text which will give importance for a text. Text will be marked italic.
+  Both are used to increase the meaning of the content Both the tags. 
+  Both <b> and <i> are also does the same purpose as that of <strong> and <em>,
+  but bold and italic doesn't have meaning. Strong and emp are semantic markup(it means meaningful content).  
+
+----> <q> - To represent the Short Quotations.  
+
+* <blackquote> - To define a section that is quoted from another source.
+
+* <pre></pre> , <tt></tt>
+ex:
+----
+<p>Example of long quotation.</p>
+<blockquote>
+<p>quotation text quotation text</p>
+<p>quotation text quotation text</p>
+</blockquote>
+<p>Example of long quotation.</p>
+
+* <abbr>	- Abbreviation 
+format
+     <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+     
+* <acronym>	- Acronym     (this  not support in HTML5)
+  The abbreviation tag contains title attribute which will give full form of the abbreviation. 
+  When the mouse cursor is moved over the abbreviation then it will show the full content.
+  The first letter of each word represents the acronym. The same title applies for Acronym tag also.
+
+* <cite> - Citation - It defines title of a creative work(Eg. A book, A poem, A movie, A painting, A sculpture).
+           The text inside the cite tag will be italic.
+          <p>The Scream by<cite>Edvard Munch</cite>. Painted in 1893.</p>
+
+* <dfn> - Definition
+	Gives the Definiton of a word.
+	The content inside the cite tag will be italic.
+	The definition tag is used to define a terminology.
+     <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+* <address> - Generally to mention for search engines that this is the address we use address tag.
+	
+* <del> - Delete
+  <p>After picking up some groceries, I went <del>home</del> back to my apartment.</p>
+
+
+* <ins> - insert
+  <p>After picking up some groceries, I went <del>home</del> <ins>back to my apartment</ins>.</p>                                      
+
+
+* <s>	- strikedout
+	The S and STRIKE elements defines strikethrough text. 
+        The use of these elements is deprecated. 
+  <p>Normal text, <s>Strikethrough text,</s> <strike>Strikethrough text,</strike></p>
+
+* comment line using html 
+   <!-- This is comment line -->
+
+* <font face="roboto" size="5" color="red">
+   <p> Lorem ..... </P>
+  </font>
